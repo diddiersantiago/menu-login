@@ -29,7 +29,27 @@ img{
    height: 300px;
 }
 
-
+@media screen and (max-width:688px){
+   .menu-login{
+      display: block;
+      height: 100%;
+      width: 100%;
+      box-shadow: none;
+      border: none solid;
+      border-radius: 0px 0px 0px 0px;
+   }
+   .imagen{
+      margin: none;
+      border-bottom-right-radius: none;
+   }
+   .menu-2 {
+      padding: 4px 4px;
+      border-bottom-right-radius: none;
+      justify-content: center;
+      align-content: center;
+      text-align: center;
+   }
+}
 
 
 .menu-2{
